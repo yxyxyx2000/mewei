@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>作业1--DIV标签</title>
+</head>
+
+<body>
+	<div>这是一组DIV标签元素</div>
+</body>
+</html>
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>作业2--DIV标签+CSS样式表</title>
+</head>
+<style>
+	div{ background-color: brown}
+	.red{ background-color: red}
+	#green{ background-color: green}
+/*
+	CSS样式优先级：
+				行内样式 > ID样式 > class类样式 > 标签样式 
+	
+	*/
+	</style>
+<body>
+	<div>这是一组DIV标签元素</div>
+	<div class="red">这是一组DIV标签元素</div>
+	<div id="green">这是一组DIV标签元素</div>
+	<div class="red" id="green">这是一组DIV标签元素</div>
+	<div class="red" id="green" style="background-color: yellow" >这是一组DIV标签元素</div>
+</body>
+</html>
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>作业3--DIV标签+float浮动布局</title>
+	<style>
+		body{padding: 0;margin: 0}
+        /*		
+		padding:元素内部间距；
+		margin:元素外部间距
+		*/
+		div{ width: 33.3333%;height: 80px}
+		.box{width:800px;margin: 0 auto}
+		.red{background-color: red}
+		.green{ background-color: green}
+		.blue{ background-color: blue}
+		.fl{float: left}
+	
+	</style>
+	
+</head>
+
+<body>
+<div class="box">	
+	<div class="red fl">这是一组DIV标签元素</div>
+	<div class="green fl">这是一组DIV标签元素</div>
+	<div class="blue fl">这是一组DIV标签元素</div>
+</div>
+</body>
+</html>
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>MOTO的网页作业列表</title>
+</head>
+
+<body>
+	<h1>大家好，我是MOTO,这是我的HTML学习作业。</h1>
+	<h2>HTML作业列表</h2>
+	<ol>
+		<li><a href="zy001.html" target="_blank"> DIV标签</a></li>
+		<li><a href="zy002.html" target="_blank">DIV标签和CSS样式表</a></li>
+		<li><a href="" target="_blank">DIV+CSS布局</a></li>
+		<li><a href="it.wczy.cn/index.html" target="_blank">仿站：电信学院</a></li>
+	</ol>
+</body>
+</html>
